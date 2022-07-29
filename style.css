@@ -1,6 +1,10 @@
 .myimage {
     filter: brightness(50%);
 }
+.navbar-color{
+    background-color: #121d33;
+   
+}
 
 .button{
     padding-top: 20px;
@@ -151,4 +155,65 @@
             display: flex;
             
         }
+      }
+
+      
+      
+      
+
+      /* cardd  */
+
+      .animation-card-o{
+        width: 550px;
+        height: 170px;
+        background-color: rgba(0, 255, 89, 0.256);
+        position:absolute;
+        animation: myfirst 2s linear 2s infinite alternate;
+        
+        border-radius: 40px;
+      }
+      
+      @keyframes myfirst {
+        0%   {background-color:rgba(255, 0, 0, 0.253); left:0px; top:0px;}
+        
+        24%  {background-image: url(assets/.jpg);}
+        24%  {background-image: url(assets/.jpg);}
+    
+        50%  {background-color:rgba(0, 0, 255, 0.269); left:200px; top:200px;}
+        50%  {background-color:rgba(0, 0, 255, 0.217); left:200px; top:200px;}
+        24%  {background-image: url(assets/.jpg);}
+        24%  {background-image: url(assets/.jpg);}
+      }
+
+
+
+      /* discount  */
+      .anidiscount{
+        width: 550px;
+        height: 170px;
+        background-color: rgb(232, 196, 14);
+        position:absolute;
+        animation: myfirst 2s linear 2s infinite alternate;
+        
+        border-radius: 40px;
+      }
+      
+      @keyframes myfirst {
+        0%   {background-color:rgba(30, 133, 228, 0.295); left:0px; top:0px;}
+        
+        24%  {background-image: url(assets/.jpg);}
+        24%  {background-image: url(assets/.jpg);}
+    
+        50%  {background-color:rgba(224, 9, 224, 0.269); left:200px; top:200px;}
+        50%  {background-color:rgba(245, 10, 171, 0.217); left:200px; top:200px;}
+        50%  {background-color:rgba(10, 245, 14, 0.217); left:200px; top:200px;}
+        50%  {background-color:rgba(245, 10, 171, 0.217); left:200px; top:200px;}
+        
+      }
+
+      .dark-img{
+      
+     
+       background-image: url(images/4k/download\ \(7\).jpg);
+
       }
